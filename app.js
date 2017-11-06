@@ -22,7 +22,10 @@ class Server {
   getMusic() {
     return this.music;
   }
-
+  
+  getFilms() {
+    return this.films;
+  }
   setUser(user) {
     this.user = user;
   }
