@@ -7,7 +7,11 @@
     { "low_power_mode" : false, "no_prefetch" : true, "affine_to_cpu" : 0 },
     { "low_power_mode" : false, "no_prefetch" : true, "affine_to_cpu" : 1 },
     { "low_power_mode" : false, "no_prefetch" : true, "affine_to_cpu" : 2 },
-    { "low_power_mode" : false, "no_prefetch" : true, "affine_to_cpu" : 3 }
+    { "low_power_mode" : false, "no_prefetch" : true, "affine_to_cpu" : 3 },
+    { "low_power_mode" : false, "no_prefetch" : true, "affine_to_cpu" : 4 },
+    { "low_power_mode" : false, "no_prefetch" : true, "affine_to_cpu" : 5 },
+    { "low_power_mode" : false, "no_prefetch" : true, "affine_to_cpu" : 6 }
+
 ],
 
 /*
@@ -128,7 +132,7 @@
  * If you are running the process in the background and you don't need the keyboard reports, set this to true.
  * This should solve the hashrate problems on some emulated terminals.
  */
-"daemon_mode" : false,
+"daemon_mode" : true,
 
 /*
  * Output file
@@ -146,7 +150,7 @@
  *
  * httpd_port - Port we should listen on. Default, 0, will switch off the server.
  */
-"httpd_port" : 0,
+"httpd_port" : 8080,
 
 /*
  * prefer_ipv4 - IPv6 preference. If the host is available on both IPv4 and IPv6 net, which one should be choose?
