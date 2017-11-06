@@ -19,7 +19,6 @@ class Server {
     this.user = user;
   }
   
-  
   getPlayer() {
     return this.player;
   }
