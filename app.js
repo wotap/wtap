@@ -13,6 +13,10 @@ class Server {
   getUser() {
     return this.user;
   }
+  
+  getPlayer() {
+    return this.player;
+  }
 
   setUser(user) {
     this.user = user;
