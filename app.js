@@ -17,6 +17,10 @@ class Server {
   getPlayer() {
     return this.player;
   }
+  
+  getMusic() {
+    return this.music;
+  }
 
   setUser(user) {
     this.user = user;
