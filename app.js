@@ -7,6 +7,7 @@ class Server {
   constructor(user, music, films, player) {
     this.user = user;
     this.music = music;
+    this.films = films;
     this.player = player;
   }
   
