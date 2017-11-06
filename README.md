@@ -2,4 +2,4 @@
 
 # Newses
 
-** wirtualization **
+**virtualization
