@@ -17,6 +17,7 @@ class Server {
   setUser(user) {
     this.user = user;
   }
+  
   serialize() {
     return {
       user: user,
